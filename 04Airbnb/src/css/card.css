@@ -1,0 +1,50 @@
+.card-image img{
+    width:130px;
+    border-radius: 7px;
+}
+
+.star{
+    width:12px;
+    margin-right:4px;
+}
+.star-part{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    margin:3px 0;
+} 
+.card{
+    margin-right:12px;
+    font-size: 8px;
+    max-width: 130px;
+    font-family: "poppins";
+    position: relative;
+}
+
+.bracket{
+    margin-left:5px;
+    color:gray;
+}
+
+.country{
+    color: gray;
+    margin-left: 3px;
+}
+
+.pricing{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.card-badge{
+    background-color: white;
+    width:50px;
+    text-align: center;
+    padding:2px 0;
+    border-radius: 2px;
+    position: absolute;
+    top:5px;
+    left:5px;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.form{
+    width: fit-content;
+}
+
+.input{
+    width: 400px;
+    font-size: 15px;
+    padding: 12px 5px;
+    text-indent: 8px;
+    border: none;
+    background-color: rgba(84, 100, 129, 0.553);
+    color: white;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.input::placeholder{
+    color: #cac9c9;
+    font-size: 15px;
+}
+
+.add-btn{
+    background-color: #338f25;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.add-btn:hover{
+    background-color: #2c7c20;
+}

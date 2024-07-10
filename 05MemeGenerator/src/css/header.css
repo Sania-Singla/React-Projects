@@ -1,0 +1,28 @@
+.header img{
+    width:40px;
+}
+
+.header p{
+    margin-left:auto;
+    font-size: 13px;
+}
+
+.header{
+    background: linear-gradient(to right,#672280,#A626D3);
+    font-family: "poppins";
+    color:white;
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+
+.logo-part{
+    display: flex;
+    align-items: center;
+}
+
+.logo-part h2{
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: 400;
+}

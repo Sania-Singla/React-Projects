@@ -1,0 +1,32 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button{
+    margin:0 8px;
+    width:90px;
+    padding: 7px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    background-color: white;
+    color: black;
+}
+
+.linkedin{
+    background-color: #2f96f7;
+    color: white;
+}
+
+button i{
+    margin-right: 7px;
+}

@@ -1,0 +1,6 @@
+<link to="path" >HELLO</link> in react-router-dom we dont have <a href="" >HELLO</a> tag because that refreshes whole page and here we dont do that 
+<NavLink to="path" className={ ( {isActive} )=>`home nav-home ... ${isActive ? " class1 " : " class2 "}.. what ever classnames or tailwind classes` } >Home</NavLink> 
+basically navlink is used to match the url & to="path" and see if they match, then isActive will be either true or false and would apply the respoective classname defined by the ternary
+
+while using params /user/:userid we automatically have access of these params in the compoenent if using <Route path="" element={} /> method 
+but rememeber to use the same param names in the component file while accessing as well so userid 

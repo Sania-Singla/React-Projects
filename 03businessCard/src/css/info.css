@@ -1,0 +1,25 @@
+.info{
+    text-align: center;
+}
+
+img{
+    width:250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2,h5,h6{
+    margin:0;
+}
+
+h2{
+    margin-top:10px;
+}
+
+h5{
+    margin-top: 2px;
+}
+
+h6{
+    margin-top: 8px;
+}

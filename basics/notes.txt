@@ -1,0 +1,7 @@
+either import each image in the file you are going to be using or move the images folder into the publich folder then in any file we can access any image as ./images/----.png 
+because public folder is accessable from anywhere so dont even need to care about ../ and stuff
+
+{variable} doesnt require $ and hence used when need to put variables direclty in html
+`${varibale}` require $ and is used with in `` hence used when put variables in js itself like in the string format 
+
+think of leaving html and entering js({}) or if already in js(`${}`)

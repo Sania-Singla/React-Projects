@@ -1,0 +1,29 @@
+.main h1{
+    color:white;
+    padding-bottom: 20px;
+}
+
+.main ul{
+    color:#dcdbdb;
+    padding-left:25px;
+}
+
+.main ul li{
+    padding:8px 0px;
+    max-width: 340px;
+}
+
+.main ul li::marker{
+    color: #89eafb;
+    font-size: 20px;
+}
+
+.main{
+    background-color: #222222;
+    background-image: url("../images/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 70%;
+    background-size: 25%;
+    padding:50px 40px;
+}

@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #0e0e0e;
+    padding:10px 20px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: black;
+}
+footer div{
+    background-color: #bbbbb8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25px;
+    height:24px;
+    border-radius: 3px;
+}
+footer i{
+    padding-top:1px;
+}

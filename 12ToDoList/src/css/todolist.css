@@ -1,0 +1,76 @@
+.list{
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #cbcbf5;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-bottom: 15px;
+    width: 450px;
+    font-size: 18px;
+}
+
+.list-item-checked{
+    background-color: #b4f6b4;
+    text-decoration: line-through;
+}
+
+.list-item span{
+    margin-left: 16px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.list-input{
+    list-style: none;
+    background-color: transparent;
+    border: 1px solid #a6a6bb;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 79%;
+    margin-left: 10px;
+}
+
+.checkbox{
+    width: 11px;
+}
+
+.list-item button{
+    position: absolute;
+    background-color: #fbfafa;
+    border: none;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.save-edit-btn{
+    right: 45px;
+}
+
+.save-edit-btn:hover{
+    background-color: #f0efef;
+}
+
+.faded-save-edit-btn{
+    right:45px;
+    opacity: 0.6;
+}
+
+.cross-btn{
+    right: 10px;
+}
+
+.cross-btn:hover{
+    background-color: #f0efef;
+}

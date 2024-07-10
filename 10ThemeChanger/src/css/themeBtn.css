@@ -1,0 +1,15 @@
+.comp-theme-btn{
+    font-size: 18px;
+    width: 100%;
+    text-align: end;
+    padding: 15px 0;
+}
+
+.comp-theme-btn label{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.comp-theme-btn input{
+    cursor: pointer;
+}

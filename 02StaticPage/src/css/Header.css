@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151515;
+    color:#dcdbdb;
+    padding:20px 22px 20px 12px;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    color: #89eafb;
+}
+
+img{
+    width:50px;
+}
