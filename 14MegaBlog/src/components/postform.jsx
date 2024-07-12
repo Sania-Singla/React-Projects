@@ -60,7 +60,7 @@ export default function PostForm({ post }) {
         return "";
     }, []);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const subscription = watch((value, { name }) => {
             if (name === "title") {
                 setValue("slug", slugTransform(value.title), { shouldValidate: true });
@@ -75,14 +75,12 @@ export default function PostForm({ post }) {
             <div className="w-2/3 px-2">
                 <Input
                     label="Title :"
-                    id="title"
                     placeholder="Title"
                     className="mb-4"
                     {...register("title", { required: true })}
                 />
                 <Input
                     label="Slug :"
-                    id="slug"
                     placeholder="Slug"
                     className="mb-4"
                     {...register("slug", { required: true })}
@@ -94,7 +92,6 @@ export default function PostForm({ post }) {
             </div>
             <div className="w-1/3 px-2">
                 <Input
-                    id="file"
                     label="Featured Image :"
                     type="file"
                     className="mb-4"
@@ -111,13 +108,12 @@ export default function PostForm({ post }) {
                     </div>
                 )}
                 <Select
-                    id="status"
                     options={["active", "inactive"]}
                     label="Status"
                     className="mb-4"
                     {...register("status", { required: true })}
                 />
-                <Button type="submit" bgColor={post ? "bg-green-500" : undefined} className="w-full" btnText={post ? "Update" : "Submit"} />
+                <Button type="submit" bgColor={post ? "bg-green-500" : undefined} className="w-full" btnText={post ? "Update" : "Submit"}/>
             </div>
         </form>
     );

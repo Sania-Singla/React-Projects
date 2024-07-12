@@ -7,7 +7,6 @@ function PostCard({
     $id,            //this is the id of the post doc in the db and in appwrite they name it $id not _id 
     title,
     image,          //image id hi store kri hai hmne db mein 
-    ...props
 }) {
   return (
     <Link to={`/post/${$id}`}>
@@ -17,7 +16,6 @@ function PostCard({
                     className='rounded-xl' 
                     src={postsService.getFilePreview(image)} 
                     alt={title}
-                    {...props}
                 />
             </div>
             <h2 className='text-xl font-bold'>{title}</h2>

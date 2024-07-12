@@ -19,7 +19,7 @@ function Signup() {
             const userData = await authService.createAccount(data);
             if(userData) 
             {
-                userData = authService.getCurrentUser();  // it is similar to the backend that first create the user then get the created user to make sure user has been created successfully
+                const userData = authService.getCurrentUser();  // it is similar to the backend that first create the user then get the created user to make sure user has been created successfully
                 if(userData)
                 {
                     disptach(login(userData))

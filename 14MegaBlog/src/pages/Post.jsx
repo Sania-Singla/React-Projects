@@ -18,7 +18,7 @@ export default function Post() {
        
         if (slug) {
             postsService.getPost(slug).then((post) => {
-                if (post) { postsService.getFilePreview(post.image).then((url)=>console.log(url));setPost(post);}
+                if (post) setPost(post);
                 else navigate("/");
             });
         } else navigate("/");
