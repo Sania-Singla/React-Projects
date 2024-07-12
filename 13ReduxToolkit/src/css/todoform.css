@@ -1,0 +1,27 @@
+.form{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 300px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d0cdcd;
+    padding: 8px;
+
+}
+
+.add{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

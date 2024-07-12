@@ -41,7 +41,7 @@ function App() {
   const passwordRef = useRef(null);  //default value = null
 
   function copyToClipboard() {
-    passwordRef.current?.select();
+    passwordRef.current?.select();    
     passwordRef.current?.setSelectionRange(0,3);   //upper statement is required for this to work (could also use .focus() in above statement)
     window.navigator.clipboard.writeText(passwordRef.current?.value.substring(passwordRef.current.selectionStart,passwordRef.current.selectionEnd));
     // window.navigator.clipboard.writeText(password);  but like this we are direclty providing the text to copy even if i write "sania" it would copy sania to clipboard so we want to link it to the firld it self using ref hook
@@ -61,7 +61,7 @@ function App() {
           id="password"
           value={password}
           readOnly
-          ref={passwordRef}
+          ref={passwordRef}    // so basically passwordRef ke andr ab is input ka referene a jayega 
         />
         <button 
           id="copy-btn"

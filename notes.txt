@@ -1,0 +1,16 @@
+* react-hook-form is used to easily maintain the forms in react we could have also done this classically but it makes it a little easier
+* html-parser package is used to represent the html string got from the db 
+* tiny.cloud package is used to provide a text-editor area
+
+
+//.env(always made in root directory & no need to exxport any vairable defined there & always added to .gitignore & always restart the server whenever modify something in .env file)
+* in create react app => prefix required is : REACT_APP_...... and for access use: process.env.REACT_APP_......
+* in Vite => prefix required is : VITE_....... and for access use : import.meta.env.VITE_.......
+
+
+//services folder 
+* we make classes and export their objects becuase we want to keep all the functionality in one file so that when we migrate from lets say appwrite to firebase then we will not have to change anything in the components and all becuase wrappers are still the same just the underhood functions we will change in this folder 
+* similar to db queries (always use async/await and try/catch)
+
+//appwrite 
+* we make indexes when we are going to be using those keys in queries else we wont be able to apply queries on those keys 

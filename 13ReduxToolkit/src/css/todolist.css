@@ -1,0 +1,29 @@
+.todos{
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cross{
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.text{
+    width: 300px;
+}
