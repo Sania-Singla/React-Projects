@@ -3,7 +3,7 @@ import './App.css'
 import authService from "./appwriteServices/authService"
 import {Header,Footer} from './components/index'
 import { useDispatch } from 'react-redux';
-import { login } from './store/authSlice';
+import { logout,login } from './store/authSlice';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
   useEffect(()=>{
     authService.getCurrentUser()
-    .then((userData)=>{
+    .then(userData=>{
       userData ? dispatch(login(userData)) : dispatch(logout())
     })
     .finally(()=>setLoading(false))

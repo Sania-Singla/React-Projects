@@ -92,6 +92,7 @@ function Signup() {
 
                         <Button
                             type="submit"
+                            className="w-full"
                             btnText="Signup"
                         />
                     </div>

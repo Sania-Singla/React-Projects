@@ -8,6 +8,7 @@ function PostCard({
     title,
     image,          //image id hi store kri hai hmne db mein 
 }) {
+    // console.log("$id=",$id,"title=",title,"image=",image)
   return (
     <Link to={`/post/${$id}`}>
         <div className='w-full bg-gray-100 rounded-xl p-4'>
