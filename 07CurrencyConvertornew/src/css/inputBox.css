@@ -1,0 +1,48 @@
+.input-box {
+    background-color: white;
+    width: 350px;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.amount-section {
+    width: fit-content;
+}
+
+.amount-section input {
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #cfcece;
+    padding: 3px;
+    text-indent: 5px;
+    font-size: 15px;
+}
+
+.amount-section label {
+    text-align: start;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.currency-section select {
+    padding: 3px;
+    border-radius: 5px;
+    width: 60px;
+    border: 1px solid #cfcece;
+    background-color: aliceblue;
+}
+
+.currency-section {
+    text-align: end;
+    width: fit-content;
+}
+
+.currency-section label {
+    text-align: end;
+}

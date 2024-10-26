@@ -1,0 +1,40 @@
+button {
+    padding: 6px 10px;
+    border-radius: 7px;
+    background-color: #51b1b1;
+    border: none;
+    box-shadow: 0 0 5px black;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #469191;
+}
+
+#swap-btn {
+    position: absolute;
+    /* really nice way to centerize the elements */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    background-color: rgba(230, 225, 225, 0.4);
+    padding: 30px 50px;
+    max-width: fit-content;
+    border-radius: 10px;
+    position: relative;
+}
+
+.form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
