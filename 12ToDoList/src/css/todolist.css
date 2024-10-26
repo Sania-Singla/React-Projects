@@ -1,9 +1,9 @@
-.list{
+.list {
     width: fit-content;
     margin-top: 30px;
 }
 
-.list-item{
+.list-item {
     display: flex;
     align-items: center;
     position: relative;
@@ -17,21 +17,21 @@
     font-size: 18px;
 }
 
-.list-item-checked{
+.list-item-checked {
     background-color: #b4f6b4;
     text-decoration: line-through;
 }
 
-.list-item span{
+.list-item span {
     margin-left: 16px;
     background-color: transparent;
     font-size: 16px;
 }
 
-.list-input{
+.list-input {
     list-style: none;
     background-color: transparent;
-    border: 1px solid #a6a6bb;
+    border: 1px solid #67676c;
     padding: 5px;
     border-radius: 8px;
     font-size: 16px;
@@ -39,13 +39,13 @@
     margin-left: 10px;
 }
 
-.checkbox{
+.checkbox {
     width: 11px;
 }
 
-.list-item button{
+.list-item button {
     position: absolute;
-    background-color: #fbfafa;
+    background-color: #ffffff;
     border: none;
     border-radius: 5px;
     width: 25px;
@@ -54,23 +54,23 @@
     margin-left: 10px;
 }
 
-.save-edit-btn{
+.save-edit-btn {
     right: 45px;
 }
 
-.save-edit-btn:hover{
+.save-edit-btn:hover {
     background-color: #f0efef;
 }
 
-.faded-save-edit-btn{
-    right:45px;
+.faded-save-edit-btn {
+    right: 45px;
     opacity: 0.6;
 }
 
-.cross-btn{
+.cross-btn {
     right: 10px;
 }
 
-.cross-btn:hover{
+.cross-btn:hover {
     background-color: #f0efef;
 }

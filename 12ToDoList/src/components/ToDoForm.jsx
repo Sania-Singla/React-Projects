@@ -6,7 +6,7 @@ export default function ToDoForm() {
     //from context
     const { tasks, setTasks } = useToDo();
 
-    //local state
+    //local states
     const [ToDo, setToDo] = useState("");
     const [id, setId] = useState(() => {
         const currentId = localStorage.getItem("currentId"); //getting the saved id from localstorage to set to default (retaining prev info)
@@ -21,7 +21,6 @@ export default function ToDoForm() {
         [id]
     );
 
-    //adding task method
     function addTask() {
         if (!ToDo) return alert("please add a task");
 
@@ -44,7 +43,13 @@ export default function ToDoForm() {
 
     return (
         <div className="form">
-            <input type="text" placeholder="Add a Task !" className="input" value={ToDo} onChange={(e) => setToDo(e.target.value)} />
+            <input
+                type="text"
+                placeholder="Add a Task !"
+                className="input"
+                value={ToDo}
+                onChange={(e) => setToDo(e.target.value)}
+            />
 
             <button className="add-btn" onClick={addTask}>
                 Add

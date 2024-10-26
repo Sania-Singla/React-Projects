@@ -69,7 +69,7 @@ export default function ToDoList() {
                 />
 
                 {task.editable ? (
-                    <input type="text" value={task.text} onChange={(e) => changeTask(task.id, e.target.value)} className="list-input" />
+                    <input type="text" value={task.text} autoFocus onChange={(e) => changeTask(task.id, e.target.value)} className="list-input" />
                 ) : (
                     <span>{task.text}</span>
                 )}
